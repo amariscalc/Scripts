@@ -48,10 +48,10 @@ else
 
 	#Pedimos proyecto:
 	echo 'Introduzca el proyecto sobre el que desea actuar:'
-	read -r projecto
+	read -r proyecto
 
 	##Seleccionamos proyecto
-	oc project $projecto
+	oc project $proyecto
 
 	##Eliminamos pods complete y error
 	for i in $(oc get pods --field-selector=status.phase!=Running -o custom-columns=POD:.metadata.name --no-headers)
