@@ -1,3 +1,4 @@
+= Script eliminar Pods Openshift en estado Error o completed
 :doctype: book
 :sectnums:
 :toc:
@@ -18,7 +19,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 4
 
-= Script eliminar Pods Openshift en estado Error o completed
+
 
 == Características
 
