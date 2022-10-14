@@ -25,6 +25,7 @@ endif::[]
 
 === Requisitos previos
 · Ejecución de scripts bash.
+
 · Cliente "oc" (Openshift): https://developers.redhat.com/openshift/command-line-tools
 
 === Descripción
