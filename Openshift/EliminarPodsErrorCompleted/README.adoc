@@ -1,4 +1,4 @@
-=Eliminar pods Openshift en estado distinto a "Running"
+= Eliminar pods Openshift en estado distinto a "Running"
 :doctype: book
 :sectnums:
 :toc:
