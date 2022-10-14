@@ -28,6 +28,13 @@ endif::[]
 
 · Cliente "oc" (Openshift): https://developers.redhat.com/openshift/command-line-tools
 
+El usuario debe sustituir en el script los campos siguientes adaptandolo a su infraestructura:
+· URL_ACCESO_API_OPENSHIFT_DESARROLLO:PORT (línea 22), URL_ACCESO_API_OPENSHIFT_PREPRODUCCION:PORT (línea 25), URL_ACCESO_API_OPENSHIFT_PRODUCCION:PORT (línea 28).
+
+· Mensaje de petición de entorno para adaptar los nombres a lo que corresponda (línea 15).
+
+· Nombre de los entornos (líneas 21,24 y 27)
+
 === Descripción
 Script escrito en bash para ayudar a eliminar pods en estado distinto a "Running".
 
