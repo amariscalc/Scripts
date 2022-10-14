@@ -1,3 +1,23 @@
+:doctype: book
+:sectnums:
+:toc:
+:toclevels: 3
+:toc-title: Índice
+:icons: font
+:imagesdir: images/
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+:toc:
+:toclevels: 4
+:toc-title: Índice
+:sectnums:
+:sectnumlevels: 4
+
 = Script eliminar Pods Openshift en estado Error o completed
 
 == Características
