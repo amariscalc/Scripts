@@ -32,7 +32,7 @@ case $entorno in
 		;;
 esac
 
-###Comprobamos si el fichero "projectos" existe en el mismo directorio del script.
+###Comprobamos si el fichero "proyectos.txt" existe en el mismo directorio del script.
 if [ -f proyectos.txt ];
 then
 	while IFS= read line
