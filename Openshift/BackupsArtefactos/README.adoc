@@ -1,0 +1,43 @@
+= Backups artefactos OpenShift
+:doctype: book
+:sectnums:
+:toc:
+:toclevels: 3
+:toc-title: Índice
+:icons: font
+:imagesdir: images/
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+:toc:
+:toclevels: 4
+:toc-title: Índice
+:sectnums:
+:sectnumlevels: 4
+
+
+
+== Características
+
+=== Requisitos previos
+· Ejecución de scripts bash.
+
+· Cliente "oc" (Openshift): https://developers.redhat.com/openshift/command-line-tools
+
+El usuario debe sustituir en el script los campos siguientes adaptandolo a su infraestructura:
+
+· URL_ACCESO_API_OPENSHIFT_DESARROLLO:PORT, URL_ACCESO_API_OPENSHIFT_PREPRODUCCION:PORT, URL_ACCESO_API_OPENSHIFT_PRODUCCION:PORT.
+
+· Mensaje de petición de entorno para adaptar los nombres a lo que corresponda.
+
+· Nombre de los entornos.
+
+=== Descripción
+Script escrito en bash para crear un backup estructurado de los artefactos de OpenShift para un namespace concreto.
+
+=== Modo de empleo
+El script pedirá al usuario que se introduzca manualmente el nombre de un namespace.
