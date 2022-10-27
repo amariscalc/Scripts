@@ -13,7 +13,7 @@ echo 'Introduzca contraseña:'
 read -r -s passwd
 
 #Pedir entorno:
-echo 'Introduzca el entorno PaaS del cual desea hacer los backups (DEV/PRE/PRO):'
+echo 'Introduzca el entorno Openshift del cual desea hacer los backups (DEV/PRE/PRO):'
 read -r entorno
 
 #Hacer login en el entorno correspondiente
