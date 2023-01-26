@@ -1,11 +1,29 @@
-Obtener información principal de los Deployment config de OpenShift
-Índice
-1. Características
-1.1. Requisitos previos
-1.2. Descripción
-1.3. Modo de empleo
-1. Características
-1.1. Requisitos previos
+= Eliminar pods Openshift en estado distinto a "Running"
+:doctype: book
+:sectnums:
+:toc:
+:toclevels: 3
+:toc-title: Índice
+:icons: font
+:imagesdir: images/
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+:toc:
+:toclevels: 4
+:toc-title: Índice
+:sectnums:
+:sectnumlevels: 4
+
+
+
+== Características
+
+=== Requisitos previos
 · Ejecución de scripts bash.
 
 · Cliente "oc" (Openshift): https://developers.redhat.com/openshift/command-line-tools
@@ -14,14 +32,18 @@ El usuario debe sustituir en el script los campos siguientes adaptandolo a su in
 
 · URL_ACCESO_API_OPENSHIFT_DESARROLLO:PORT , URL_ACCESO_API_OPENSHIFT_PREPRODUCCION:PORT , URL_ACCESO_API_OPENSHIFT_PRODUCCION:PORT .
 
-· Mensaje de petición de entorno para adaptar los nombres a lo que corresponda (línea 15).
+· Mensaje de petición de entorno para adaptar los nombres a lo que corresponda.
 
-· Nombre de los entornos (líneas 21,24 y 27)
+· Nombre de los entornos.
 
-1.2. Descripción
-Script para obtener información de los DC de un proyecto en OpenShift
+=== Descripción
+Script escrito en bash para obtener información de los deployment configs.
 
-1.3. Modo de empleo
-El script está preparado para recibir un fichero llamado proyectos.txt con un listado de namespaces de Openshift. El fichero solo debe tener un nombre de namespace por línea. En caso de no encontrarse el fichero proyectos.txt en el mismo directorio que el propio script se pedirá al usuario que se introduzca manualmente el nombre de un namespace.
+=== Modo de empleo
+El script está preparado para recibir un fichero llamado proyectos.txt con un listado de namespaces de Openshift.
+El fichero solo debe tener un nombre de namespace por línea.
+En caso de no encontrarse el fichero proyectos.txt en el mismo directorio que el propio script se pedirá al usuario que se introduzca
+manualmente el nombre de un namespace.
+
 
 Agradecimientos a Ernesto Gimeno Valiente https://www.linkedin.com/in/ernesto-gimeno-valiente/
