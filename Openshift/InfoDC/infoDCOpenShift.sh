@@ -12,7 +12,7 @@ echo 'Introduzca contraseña:'
 read -r -s passwd
 
 #Pedimos entorno:
-echo 'Introduzca el entorno PaaS (DEV/PREBO1/PREBO2/PROBO1P2/PROBO2P2/DMZBO1P2/DMZBO2P2/PROBO1P3/PROBO2P3/DMZBO1P3/DMZBO2P3):'
+echo 'Introduzca el entorno PaaS (DEV/PRE/PRO):'
 read -r entorno
 
 
