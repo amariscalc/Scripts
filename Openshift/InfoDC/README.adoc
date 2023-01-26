@@ -1,4 +1,4 @@
-= Eliminar pods Openshift en estado distinto a "Running"
+= Obtener información principal de los Deployment config
 :doctype: book
 :sectnums:
 :toc:
