@@ -30,11 +30,11 @@ endif::[]
 
 El usuario debe sustituir en el script los campos siguientes adaptandolo a su infraestructura:
 
-· URL_ACCESO_API_OPENSHIFT_DESARROLLO:PORT (línea 22), URL_ACCESO_API_OPENSHIFT_PREPRODUCCION:PORT (línea 25), URL_ACCESO_API_OPENSHIFT_PRODUCCION:PORT (línea 28).
+· URL_ACCESO_API_OPENSHIFT_DESARROLLO:PORT, URL_ACCESO_API_OPENSHIFT_PREPRODUCCION:PORT, URL_ACCESO_API_OPENSHIFT_PRODUCCION:PORT.
 
 · Mensaje de petición de entorno para adaptar los nombres a lo que corresponda (línea 15).
 
-· Nombre de los entornos (líneas 21,24 y 27)
+· Nombre de los entornos
 
 === Descripción
 Script escrito en bash para configurar un número de pods determinado para todos los microservicios de un proyecto.
