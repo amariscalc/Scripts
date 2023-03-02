@@ -12,7 +12,7 @@ echo 'Introduzca contraseña:'
 read -r -s passwd
 
 #Pedimos entorno:
-echo 'Introduzca el entorno PaaS del cual desea eliminar los pods (DEV/PRE/PRO):'
+echo 'Introduzca el entorno PaaS del cual desea modificar el número de pods (DEV/PRE/PRO):'
 read -r entorno
 
 
