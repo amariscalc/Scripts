@@ -1,0 +1,44 @@
+= Número de pods para todos los microservicios de un namespace
+:doctype: book
+:sectnums:
+:toc:
+:toclevels: 3
+:toc-title: Índice
+:icons: font
+:imagesdir: images/
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+:toc:
+:toclevels: 4
+:toc-title: Índice
+:sectnums:
+:sectnumlevels: 4
+
+
+
+== Características
+
+=== Requisitos previos
+· Ejecución de scripts bash.
+
+· Cliente "oc" (Openshift): https://developers.redhat.com/openshift/command-line-tools
+
+El usuario debe sustituir en el script los campos siguientes adaptandolo a su infraestructura:
+
+· URL_ACCESO_API_OPENSHIFT_DESARROLLO:PORT (línea 22), URL_ACCESO_API_OPENSHIFT_PREPRODUCCION:PORT (línea 25), URL_ACCESO_API_OPENSHIFT_PRODUCCION:PORT (línea 28).
+
+· Mensaje de petición de entorno para adaptar los nombres a lo que corresponda (línea 15).
+
+· Nombre de los entornos (líneas 21,24 y 27)
+
+=== Descripción
+Script escrito en bash para configurar un número de pods determinado para todos los microservicios de un proyecto.
+
+=== Modo de empleo
+El script pedirá el usuario y contraseña de Openshift donde se realizará la tarea, posteriormente introducir el entorno Openshift al que conectar y se pedirá al usuario que se introduzca
+el nombre de un namespace.
